@@ -1,8 +1,9 @@
 import React from "react";
-import Navigation from "./Navigation";
-import BigLogo from "./Logo";
-import About from "./About";
-import Projects from "./Projects";
+import Navigation from "./Navigation/Navigation";
+import BigLogo from "./Logo/Logo";
+import About from "./About/About";
+import Projects from "./ProjectsDashboard/ProjectsDashboard";
+import ProjectsBox from "./ProjectsBox/ProjectsBox";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <BigLogo />
       <About />
       <Projects />
+      <ProjectsBox />
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React from "react";
-import DisplayBox from "./DisplayBox";
-import img_1 from "../img/kode-ill.jpg";
-import img_2 from "../img/kode-ill2.jpg";
-import img_3 from "../img/kode-ill3.jpg";
+import DisplayBox from "../DiplayBox/DisplayBox";
+import img_1 from "../../img/kode-ill.jpg";
+import img_2 from "../../img/kode-ill2.jpg";
+import img_3 from "../../img/kode-ill3.jpg";
 
 const About = () => {
   return (

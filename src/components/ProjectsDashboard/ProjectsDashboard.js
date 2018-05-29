@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Technologies from "./Technologies";
+import Technologies from "../Technologies/Technologies";
 
 class Projects extends Component {
   render() {
@@ -10,17 +10,6 @@ class Projects extends Component {
             <h2 className="pt-3 pb-2 display-4" id="prosjekter">
               Prosjekter
             </h2>
-            <p>
-              <i>
-                Prosjekter kommer her etter hvert som jeg begynner å bygge dem.
-              </i>
-            </p>
-            <p>
-              <i>
-                Klikk på de fargede knappene under for å velge eller filtrere
-                vekk kriteriene du er ute etter.
-              </i>
-            </p>
             <Technologies />
           </div>
         </div>
